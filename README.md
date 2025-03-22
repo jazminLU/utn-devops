@@ -32,6 +32,10 @@ El script de creación apunta a la app: **Galaxia 3D**, que corresponde a un sit
 ### 1️⃣ Clonar el repositorio
 
 Primero, clona este repositorio.
+```bash
+git clone https://github.com/jazminLU/utn-devops.git
+
+```
 
 ### 2️⃣ Levantar la máquina virtual con Vagrant
 Ejecuta el siguiente comando para crear y configurar la máquina virtual:
@@ -55,7 +59,7 @@ Configurará Apache para servir la aplicación en el puerto 8888.
 Una vez que la máquina virtual esté en funcionamiento, abre tu navegador y visita:
 
 ```bash
-http://localhost:8888
+http://localhost:8080
 ```
 Deberías ver la galaxia 3D super realista en acción.
 
