@@ -1,0 +1,21 @@
+{
+  "name": "utn-devops",
+  "version": "1.0.0",
+  "description": "**Descripcion :** Este repositorio lo cree para centralizar los trabajos practicos de la cursada aqui:",
+  "main": "index.js",
+"scripts": {
+  "test": "jest"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jazminLU/ToDo-API"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jazminLU/utn-devops/issues"
+  },
+  "homepage": "https://github.com/jazminLU/utn-devops#readme"
+}

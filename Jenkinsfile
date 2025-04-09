@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Clonar repositorio app') {
             steps {
-                git 'https://github.com/jazminLU/repositorio-aplicacion.git'
+                git 'https://github.com/jazminLU/ToDo-API.git'
             }
         }
 
         stage('Instalar dependencias') {
             steps {
-                sh 'npm install'  // cambia esto según el lenguaje de tu app
+                sh 'npm install'  
             }
         }
 
