@@ -16,17 +16,17 @@ pipeline {
 
         stage('Ejecutar pruebas unitarias') {
             steps {
-                sh 'npm test'
+                sh 'npx jest'
             }
         }
     }
 
     post {
         success {
-            echo 'Build exitoso'
+            echo '✅ Build exitoso'
         }
         failure {
-            echo 'Hubo errores en el pipeline'
+            echo '❌ Hubo errores en el pipeline'
         }
     }
 }
